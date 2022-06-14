@@ -1,0 +1,52 @@
+// Copyright (c) 2022 Alex313031. //
+
+{
+  "manifest_version": 3,
+  "version": "0.1.1",
+  "version_name": "0.1.1",
+  "name": "Thorium Material Dark Theme",
+  "short_name": "Thorium Dark Theme",
+  "author": "Alex313031",
+  "description": "Dark theme for Thorium Browser adhering to Material Design principles.",
+  "offline_enabled": true,
+  "minimum_chrome_version": "88",
+  "icons": {
+      "16": "icons/icon_16.png",
+      "24": "icons/icon_24.png",
+      "32": "icons/icon_32.png",
+      "48": "icons/icon_48.png",
+      "64": "icons/icon_64.png",
+      "128": "icons/icon_128.png",
+      "256": "icons/icon_256.png"
+  },
+  "theme": {
+	"images" : {
+        "theme_ntp_background": "images/theme_ntp_background_norepeat.jpg",
+        "theme_ntp_attribution": "images/attribution.png"
+    },
+    "colors": {
+		"toolbar": [ 36, 41, 47 ],
+		"frame": [ 9, 9, 9 ],
+        "frame_inactive": [ 28, 30, 32 ],
+        "frame_incognito": [ 9, 9 , 9 ],
+        "frame_incognito_inactive": [ 28, 30, 32 ],
+        "tab_text": [255, 255, 255 ],
+        "bookmark_text": [243, 243, 243 ],
+        "tab_background_text": [255, 255, 255 ],
+        "tab_background_text_inactive": [ 255, 255, 255 ],
+        "tab_background_text_incognito": [ 255, 255, 255 ],
+        "tab_background_text_incognito_inactive": [ 255, 255, 255 ],
+        "ntp_background": [ 36, 41, 47 ],
+        "ntp_section": [ 36, 41, 47 ],
+        "omnibox_background": [ 28, 30, 32 ],
+        "omnibox_text": [ 255, 255, 255 ]
+    },
+    "tints": {
+        "buttons": [ -1, 1, 1 ]
+    },
+    "properties" : {
+        "ntp_background_alignment": "center",
+        "ntp_logo_alternate": 1
+    }
+  }
+}
